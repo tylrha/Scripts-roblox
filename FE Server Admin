@@ -287,7 +287,7 @@ local function ServerAdmin()
     local glassesReady = false
     local glassesList = "VarietyShades02", "e"
     
-    --Glasses
+    --Glasses (FAKE)
     for i,v in pairs(character:GetChildren()) do
         if v.Name == glassesList then
             glasses = reanimation:FindFirstChild(v.Name)
