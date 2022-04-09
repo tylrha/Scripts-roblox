@@ -1,5 +1,5 @@
 local message = Instance.new("Message",workspace)
-message.Text= "Script Patched. Worksing 3 commands, hurl command not working."
+message.Text= "Script Patched. Working 3 commands, hurl command not working."
 wait(2)
 message.Text= "loading in 3 sec. enjoy."
 wait(3)
@@ -12,8 +12,8 @@ local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 
 game.StarterGui:SetCore("SendNotification",  {
- Title = "Text Here";
- Text = "Desc here";
+ Title = "Successfully Loaded!";
+ Text = "To Reset, Press Shift+R.";
  Duration = 5;
 })
 --Script Begin--
