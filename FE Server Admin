@@ -1,6 +1,6 @@
 local message = Instance.new("Message",workspace)
 message.Text= "(NEW!) Script have been achived by web.archive.org."
-wait(2)
+wait(3)
 message.Text = "The link will be copied on 5 sec."
 wait(5)
 message.Text = "Link Copied on ClipBoard!"
