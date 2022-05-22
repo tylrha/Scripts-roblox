@@ -18,6 +18,6 @@ Section:NewButton("FE Gravity Gun", "Avavilable on Github", function()
     HttpExecute(loadscript:HttpGet('https://raw.githubusercontent.com/Rbxaldolagos2019ScriptShortender/Scripts/main/FE%20Gravity%20Gun'),true)()
 end)
 
-Section:NewButton("FE INfinite Yield", "Avavilable on Github EdgeIY", function()
+Section:NewButton("FE Infinite Yield", "Avavilable on Github EdgeIY", function()
 HttpExecute(loadscript:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true)()
 end)
