@@ -1,0 +1,20 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Github's Rbxaldolagos2019ScriptShortender Hub", "LightTheme")
+local Tab = Window:NewTab("My Main")
+local Section = Tab:NewSection("Scripts")
+HttpExecute=loadstring
+loadscript=game
+
+Section:NewButton("FE Server Admin", "Avavilable on Github", function()
+    HttpExecute(loadscript:HttpGet('https://raw.githubusercontent.com/Rbxaldolagos2019ScriptShortender/Scripts/main/FE%20Server%20Admin'),true)()
+end)
+Section:NewButton("FE Septex Prison Life Admin", "Avavilable on Github", function()
+    HttpExecute(loadscript:HttpGet('https://raw.githubusercontent.com/Rbxaldolagos2019ScriptShortender/Rbxaldolagos2019ScriptShortender/main/PrisonLifeSeptexAdminScript'),true)()
+end)
+Section:NewButton("FE Freecam", "Avavilable on Github", function()
+    HttpExecute(loadscript:HttpGet('https://raw.githubusercontent.com/Rbxaldolagos2019ScriptShortender/Scripts/main/FE%20Freecam'),true)()
+end)
+Section:NewButton("FE Gravity Gun", "Avavilable on Github", function()
+    HttpExecute(loadscript:HttpGet('https://raw.githubusercontent.com/Rbxaldolagos2019ScriptShortender/Scripts/main/FE%20Gravity%20Gun'),true)()
+end)
+
