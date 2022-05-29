@@ -27,5 +27,5 @@ HttpExecute(loadscript:HttpGet('https://raw.githubusercontent.com/Rbxaldolagos20
 end)
 
 Section:NewButton("FE Floppa", "Avavilable on Github and too on the roblox scripts", function()
-HttpExecute(loadscript:HttpGet('https://raw.githubusercontent.com/Rbxaldolagos2019ScriptShortender/Scripts/main/FE%20Floppa%20(Works%20on%20R6%2CR15'),true)()
+HttpExecute(loadscript:HttpGet('https://raw.githubusercontent.com/Rbxaldolagos2019ScriptShortender/Scripts/main/FE%20Floppa%20(Works%20on%20R6%2CR15)'),true)()
 end)
