@@ -30,7 +30,7 @@ Section:NewButton("FE Floppa", "Avavilable on Github and too on the roblox scrip
 HttpExecute(loadscript:HttpGet('https://raw.githubusercontent.com/Rbxaldolagos2019ScriptShortender/Scripts/main/FE%20Floppa'),true)()
 end)
 
-Section:NewButton("FE Floppa", "Avavilable on Github", function()
+Section:NewButton("FE Energize R6/R15 Animations", "Avavilable on Github", function()
 HttpExecute(loadscript:HttpGet('https://raw.githubusercontent.com/Rbxaldolagos2019ScriptShortender/Scripts/main/FE%20Energize%20R6%20R15%20Animations'),true)()
 end)
 
