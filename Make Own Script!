@@ -1,0 +1,43 @@
+-- Script Input Begin --
+function sandbox(var,func)
+local env = getfenv(func)
+local newenv = setmetatable({},{
+__index = function(self,k)
+if k=="script" then
+return var
+else
+return env[k]
+end
+end,
+})
+setfenv(func,newenv)
+return func
+end
+-- Script Imput End --
+
+cors = {}
+mas = Instance.new("Model",game:GetService("Lighting"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+for i,v in pairs(mas:GetChildren()) do
+v.Parent = game:GetService("Players").LocalPlayer.    -- << Imput any Instances here.
+pcall(function() v:MakeJoints() end)
+end
+mas:Destroy()
+for i,v in pairs(cors) do
+spawn(function()
+pcall(v)
+end)
+end
