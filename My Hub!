@@ -2,6 +2,12 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("Github's Rbxaldolagos2019ScriptShortender Hub", "LightTheme")
 local Tab = Window:NewTab("My Main")
 local Section = Tab:NewSection("Scripts")
+local Tab2 = Window:NewTab("Info")
+local Section2 = Tab2:NewSection("Updates: website gg.gg is PATCHED/DELETED!")
+local Section3 = Tab2:NewSection("due to Script load issues,")
+local Section4 = Tab2:NewSection("we overwrited to github raw for")
+local Section5 = Tab2:NewSection("No more issues.")
+
 HttpExecute=loadstring
 loadscript=game
 
