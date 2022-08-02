@@ -40,4 +40,9 @@ Section:NewButton("FE Energize R6/R15 Animations", "Avavilable on Github", funct
 HttpExecute(loadscript:HttpGet('https://raw.githubusercontent.com/Rbxaldolagos2019ScriptShortender/Scripts/main/FE%20Energize%20R6%20R15%20Animations'),true)()
 end)
 
+Section:NewButton("FE Light Dex v2.0", "Avavilable on Github", function()
+HttpExecute(loadscript:HttpGet('http://raw.githubusercontent.com/Rbxaldolagos2019ScriptShortender/Scripts/main/DEX%202.0'),true)()
+end)
+
+
 
