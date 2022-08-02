@@ -1,6 +1,6 @@
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
-loadstring(game:HttpGet("http://gg.gg/RobloxFreecamScript"))()
+loadstring(game:HttpGet("http://raw.githubusercontent.com/Rbxaldolagos2019ScriptShortender/Scripts/main/RobloxFreecamScript"))()
 game.StarterGui:SetCore("SendNotification",  {
  Title = "FreeCamera Script Loaded!";
  Text = "Github Account: Rbxaldolagos2019ScriptShortender";
